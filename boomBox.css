@@ -6,8 +6,9 @@ html
 
 body
 {
-	background-color: beige;
 	height: 100%;
+	background-color: beige;
+	
 
 }
 
@@ -16,6 +17,19 @@ img
 {
 	margin-left: 32%;
 }
+
+/*mainContainer*/
+#mainContainer
+{
+
+	height: 50%;
+	width: 15%;
+	margin-left: 30%;
+
+
+}
+
+
 /*buttons*/
 
 #buttonDiv
@@ -44,5 +58,5 @@ img
 	height: 25%;
 }
 
-/*images buttons*/
+
 

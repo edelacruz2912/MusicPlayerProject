@@ -43,7 +43,7 @@ function JukeBox()
  	{
  		//nextSongButton
  		choicesIndex = choicesIndex + 1;
- 		myAudio.src = arrayOfSongs[choicesIndex]; 
+ 		myAudio.src = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
  		myAudio.play();
  		console.log(choicesIndex);
  	} 
@@ -62,8 +62,6 @@ function JukeBox()
 
 
 }
-
-
 
 //creating the instances
 
