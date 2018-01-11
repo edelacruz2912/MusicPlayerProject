@@ -24,6 +24,8 @@ img
 	margin-left: 30%;
 }
 
+/*images */
+
 #buttonDiv img
 {
 	margin: 0;
@@ -44,15 +46,3 @@ img
 
 /*images buttons*/
 
-
-
-
-#boomBoxDiv
-{
-
-	background: url("https://thumbs.gfycat.com/PerkyRealFrilledlizard-size_restricted.gif");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-attachment: fixed;
-	display: block;
-}
