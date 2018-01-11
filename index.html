@@ -6,10 +6,13 @@
 	<title>Music Poject</title>
 </head>
 <body>
-	<form>
-	<button id = "playButton" onclick="playSong()"></button>
-	<button id = "pauseButton" onclick="pauseSong()"></button>
-</form>
-
+	
+	<input type="button" id = "playButton" onclick="buttons.playButton()" value="Play"></input>
+	<input type="button" id = "pauseButton" onclick="buttons.pause()" value="pause"></input>
+<audio controls>
+<source id="rock" src="Saint%20Cecilia.mp3" type="audio/mpeg">
+</audio>
+    
+<script src="script.js"></script>
 </body>
 </html>
