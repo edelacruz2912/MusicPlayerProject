@@ -1,0 +1,36 @@
+html
+{
+	height: 100%;
+
+}
+
+body
+{
+	background-color: beige;
+	height: 100%;
+
+}
+
+/*boomBox*/
+img
+{
+	margin-left: 32%;
+}
+/*buttons*/
+
+#buttonDiv
+{
+	margin-left: 42%
+	
+
+}
+
+#boomBoxDiv
+{
+
+	background: url("https://thumbs.gfycat.com/PerkyRealFrilledlizard-size_restricted.gif");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	display: block;
+}
