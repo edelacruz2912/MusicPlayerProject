@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 alert("javaScriptWorks");
 //selecting the button with Id PlayButton
 var playButton = document.getElementById("playButton");
@@ -110,24 +110,3 @@ previousSong.addEventListener("click",function(event)
 
 
 
-
-
-=======
-var buttons = 
-    {
-        playButton: function()
-        {
-        play.play();
-        }
-        ,
-        
-        pause: function()
-        {
-        alert("test 2d")
-        }
-    }
-
-var play = document.getElementById("rock");
-
-play.play();
->>>>>>> e5991b70ba7a4642ea54dd0b565e729abd452f41
