@@ -54,7 +54,7 @@ function JukeBox()
  		//previousSong
 
  		choicesIndex = choicesIndex - 1;
- 		myAudio.src = arrayOfSongs[choicesIndex]; 
+ 		myAudio.src = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
  		myAudio.play();
  		console.log(choicesIndex);
 
