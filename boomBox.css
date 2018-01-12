@@ -12,6 +12,14 @@ body
 
 }
 
+#boomBoxPicture
+{
+	width: 100%;
+	height: 25%;
+	/*position: center;*/
+	/*float:left;*/
+}
+
 #songDisplay
 {
 	text-align: center;

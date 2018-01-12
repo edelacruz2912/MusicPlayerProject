@@ -1,4 +1,3 @@
-
 alert("javaScriptWorks");
 //selecting the button with Ids
 var playButton = document.getElementById("playButton");
@@ -6,10 +5,15 @@ var stopButton = document.getElementById("stopButton");
 var nextSong = document.getElementById("nextButton");
 var previousSong = document.getElementById("backButton");
 var songDisplay = document.getElementById("songDisplay");
+var displayImages = document.getElementById("boomBoxPicture");
 
 // to change the index of the array of Songs
 var choicesIndex = 0;
-var arrayOfSongs = ["FreeTimeJazz.mp3","MaryDidYouKnow.mp3"];
+var arrayOfSongs = ["FreeTimeJazz.mp3","MaryDYN.mp3"];
+
+// arrayofImagesToChange
+var pictureIndex = 0;
+// var arrayofPictures = ["displayPictures/hotDog.gif","displayPictures/obama.gif"];
 
 
 var myAudio =  document.getElementById("myAudio");
@@ -38,7 +42,8 @@ function JukeBox()
  	{
  		//nextSongButton
  		choicesIndex = choicesIndex + 1;
- 		myAudio.src = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
+ 		myAudio.src = arrayOfSongs[choicesIndex % arrayOfSongs.length];
+ 		// displayImages.src =  arrayofPictures[choicesIndex % arrayOfSongs.length];
  		myAudio.play();
  		console.log(choicesIndex);
  	} 
@@ -49,12 +54,11 @@ function JukeBox()
 
  		choicesIndex = choicesIndex - 1;
  		myAudio.src = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
+ 		// displayImages.src =  arrayofPictures[choicesIndex % arrayOfSongs.length];
  		myAudio.play();
  		console.log(choicesIndex);
 
  	}
-
-
 
 }
 
