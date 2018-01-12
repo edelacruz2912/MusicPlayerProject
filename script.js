@@ -67,7 +67,7 @@ var song = new JukeBox();
 playButton.addEventListener("click",function(event)
 {
 	console.log("playButton");
-	songDisplay.innerHTML = arrayOfSongs[choicesIndex];
+	songDisplay.innerHTML = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
 	song.play();
 	
 
@@ -78,7 +78,7 @@ stopButton.addEventListener("click",function(event)
 	console.log("StopButtonWorks");
 	
 	song.stop();
-	songDisplay.innerHTML = arrayOfSongs[choicesIndex];
+	songDisplay.innerHTML = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
 
 });
 
@@ -87,7 +87,7 @@ nextSong.addEventListener("click",function(event)
 {	
 	
 	song.nextSong();
-	songDisplay.innerHTML = arrayOfSongs[choicesIndex];
+	songDisplay.innerHTML = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
 	console.log("NextSongTrigerred");
 
 });
@@ -98,7 +98,7 @@ previousSong.addEventListener("click",function(event)
 {	
 	
 	song.previousSong();
-	songDisplay.innerHTML = arrayOfSongs[choicesIndex];
+	songDisplay.innerHTML = arrayOfSongs[choicesIndex % arrayOfSongs.length]; 
 	console.log("NextSongTrigerred");
 
 });
